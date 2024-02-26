@@ -1,8 +1,4 @@
 def solveQuadrat(a, b, c):
-    a=int(input("a="))
-    b=int(input("b="))
-    c=int(input("c="))
-
     D = b**2-4*a*c
     if D>0:
         x1 = (-b+(D)**0.5) / (2*a)
@@ -22,9 +18,9 @@ def solveLinear(a,b):
     else:
         x=-b/a
         if b<0:
-            print(f"Die Lösung von{str(a)} x ist {str(x)}")
+            print(f"Die Lösung von {str(a)}x + {str(b)} = 0 ist {str(x)}")
         else: 
-            print (f"Die Lösung von{str(a)} x ist {str(x)}")
+            print (f"Die Lösung von {str(a)}x + {str(b)} = 0 ist {str(x)}")
 
 
 
@@ -37,7 +33,9 @@ c=int(input("c="))
 if a>0:
     x = solveQuadrat(a,b,c)
     print(f"Die Lösung von {a}x^2+{b}x+{c}=0 ist x1={str(x[0])} und x2={str(x[1])}")
-elif b>0: print(f"")
+elif b>0: 
+    solveLinear(b,c)
+    # print(f"Die Lösung von {b}x+{c}=0 ist {x}")
 
 
 
