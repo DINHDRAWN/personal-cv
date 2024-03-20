@@ -1,0 +1,24 @@
+
+## das ist eine Textdatei für die Lektion, die am 23.02 stattfindet.
+''#'
+fwihfhwhhifwffw
+'fwihfhwhhifwf'
+
+wf
+'
+
+
+## ALU - rechner, alle die informationen ausrechnet und in die Register wieder speichert.
+## Gates/Gatter 
+
+Aufbau der Gatter -- Transistor(Elektrischer Schalter)
+
+
+
+
+
+
+
+
+
+
